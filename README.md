@@ -1,7 +1,6 @@
-# Minimal Django + Pytest + GitHub Actions example
+# Minimal Django + Pytest + Jenkins example
 
-This minimal example shows you how you can runs pytest on your Django app on every commit using GitHub Actions.
-This is an example project for [this blog post](https://mattsegal.dev/django-with-pytest-on-github-actions.html).
+This minimal example shows you how you can runs pytest on your Django app on every commit using GitHub WebHook.
 
 ## Installation
 
