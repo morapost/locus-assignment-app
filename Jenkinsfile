@@ -20,5 +20,10 @@ pipeline {
                 sh 'python3 -m pip install -r requirements.txt'
             }
         }
+        stage('Running Tests') {
+            steps {
+                sh 'cd app && pytest -vv'
+            }
+        }
     }
 }
