@@ -52,3 +52,5 @@ cd app
 
 # Now you can view the project at http://localhost:8000
 ```
+## Adding Webhook in Github
+Go to repository -> settings -> Webhook
